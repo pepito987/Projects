@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f9b26d2-fd0e-471b-8e02-6ab640803b58" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/project/generator/BreadthFirstSearchGenerator$1.class" afterPath="$PROJECT_DIR$/target/classes/project/generator/BreadthFirstSearchGenerator$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/project/generator/BreadthFirstSearchGenerator.class" afterPath="$PROJECT_DIR$/target/classes/project/generator/BreadthFirstSearchGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/project/generator/BreadthFirstSearchGeneratorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/project/generator/BreadthFirstSearchGeneratorTest.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/project/generator/BreadthFirstSearchGenerator$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/project/generator/BreadthFirstSearchGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/project/generator/BreadthFirstSearchGeneratorTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/project/generator/BreadthFirstSearchGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/project/generator/graph/GraphVisitGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/project/generator/BreadthFirstSearchGeneratorTest.java" afterPath="$PROJECT_DIR$/src/test/java/project/generator/graph/GraphVisitGeneratorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/project/data/Node.class" afterPath="$PROJECT_DIR$/target/classes/project/data/Node.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProject.iml" afterPath="$PROJECT_DIR$/MyProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/project/generator/BreadthFirstSearchGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/project/generator/BreadthFirstSearchGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/project/generator/BreadthFirstSearchGeneratorTest.java" afterPath="$PROJECT_DIR$/src/test/java/project/generator/BreadthFirstSearchGeneratorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/project/data/Node.java" afterPath="$PROJECT_DIR$/src/main/java/project/data/Node.java" />
     </list>
     <ignored path="MyProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,39 +32,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BreadthFirstSearchGenerator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/project/generator/BreadthFirstSearchGenerator.java">
+      <file leaf-file-name="GraphVisitGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/project/generator/graph/GraphVisitGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14848486">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#570#576#0" expanded="true" />
-                <element signature="e#620#626#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#612#618#0" expanded="true" />
+                <element signature="e#662#668#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#1520#1521#0" expanded="true" />
+                <element signature="e#1554#1555#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FibonacciGeneratorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/project/generator/FibonacciGeneratorTest.java">
+      <file leaf-file-name="GraphVisitGeneratorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/project/generator/graph/GraphVisitGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding />
+            <state vertical-scroll-proportion="0.79886687">
+              <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3243#3252#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BreadthFirstSearchGeneratorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/project/generator/BreadthFirstSearchGeneratorTest.java">
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+              <caret line="120" column="11" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4277#4278#0" expanded="true" />
+                <element signature="e#4329#4330#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/project/data/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,11 +113,15 @@
         <option value="$PROJECT_DIR$/src/main/java/project/generator/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/project/generator/FibonacciGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/project/generator/FibonacciGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/project/data/Node.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/project/generator/BreadthFirstSearchGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/project/generator/BreadthFirstSearchGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/project/generator/BreadthFirstSearchGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/project/generator/graph/BreadthFirstSearchGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/project/generator/graph/BreadthFirstSearchGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/project/generator/graph/GraphVisitGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/project/data/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/project/generator/graph/GraphVisitGenerator.java" />
       </list>
     </option>
   </component>
@@ -206,6 +229,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -269,6 +322,44 @@
               <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -284,49 +375,26 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="project.generator" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="project.generator.graph" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BreadthFirstSearchGeneratorTest">
-    <configuration default="false" name="FibonacciGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration default="false" name="GraphVisitGeneratorTest.testBFSShouldTheRootNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="project.generator.*" />
+          <option name="PATTERN" value="project.generator.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="MyProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="project.generator" />
-      <option name="MAIN_CLASS_NAME" value="project.generator.FibonacciGeneratorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="BreadthFirstSearchGeneratorTest.testBFSShouldTheRootNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="project.generator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MyProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="project.generator" />
-      <option name="MAIN_CLASS_NAME" value="project.generator.BreadthFirstSearchGeneratorTest" />
+      <option name="PACKAGE_NAME" value="project.generator.graph" />
+      <option name="MAIN_CLASS_NAME" value="project.generator.graph.GraphVisitGeneratorTest" />
       <option name="METHOD_NAME" value="testBFSShouldTheRootNode" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -341,20 +409,98 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BreadthFirstSearchGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="GraphVisitGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="project.generator.*" />
+          <option name="PATTERN" value="project.generator.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="MyProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="project.generator" />
-      <option name="MAIN_CLASS_NAME" value="project.generator.BreadthFirstSearchGeneratorTest" />
+      <option name="PACKAGE_NAME" value="project.generator.graph" />
+      <option name="MAIN_CLASS_NAME" value="project.generator.graph.GraphVisitGeneratorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GraphVisitGeneratorTest.bfsShouldTraversInBFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="project.generator.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MyProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="project.generator.graph" />
+      <option name="MAIN_CLASS_NAME" value="project.generator.graph.GraphVisitGeneratorTest" />
+      <option name="METHOD_NAME" value="bfsShouldTraversInBFS" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GraphVisitGeneratorTest.dfsShouldReturnTheRootElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="project.generator.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MyProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="project.generator.graph" />
+      <option name="MAIN_CLASS_NAME" value="project.generator.graph.GraphVisitGeneratorTest" />
+      <option name="METHOD_NAME" value="dfsShouldReturnTheRootElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GraphVisitGeneratorTest.dfsShouldTraverseInDFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="project.generator.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MyProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="project.generator.graph" />
+      <option name="MAIN_CLASS_NAME" value="project.generator.graph.GraphVisitGeneratorTest" />
+      <option name="METHOD_NAME" value="dfsShouldTraverseInDFS" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -609,16 +755,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciGeneratorTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BreadthFirstSearchGeneratorTest.testBFSShouldTheRootNode" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BreadthFirstSearchGeneratorTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GraphVisitGeneratorTest.testBFSShouldTheRootNode" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GraphVisitGeneratorTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GraphVisitGeneratorTest.bfsShouldTraversInBFS" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GraphVisitGeneratorTest.dfsShouldReturnTheRootElement" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GraphVisitGeneratorTest.dfsShouldTraverseInDFS" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BreadthFirstSearchGeneratorTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BreadthFirstSearchGeneratorTest.testBFSShouldTheRootNode" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FibonacciGeneratorTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GraphVisitGeneratorTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GraphVisitGeneratorTest.dfsShouldTraverseInDFS" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GraphVisitGeneratorTest.dfsShouldReturnTheRootElement" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GraphVisitGeneratorTest.bfsShouldTraversInBFS" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GraphVisitGeneratorTest.testBFSShouldTheRootNode" />
       </list>
     </recent_temporary>
   </component>
@@ -631,6 +781,9 @@
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,ALPHA_COMPARATOR" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8f9b26d2-fd0e-471b-8e02-6ab640803b58" name="Default" comment="" />
@@ -641,48 +794,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BreadthFirstSearchGeneratorTest - 2016.03.05 at 15h 34m 31s.xml">
-      <configuration name="BreadthFirstSearchGeneratorTest" configurationId="JUnit" />
+    <history-entry file="GraphVisitGeneratorTest - 2016.03.05 at 22h 29m 11s.xml">
+      <configuration name="GraphVisitGeneratorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BreadthFirstSearchGeneratorTest - 2016.03.05 at 15h 47m 05s.xml">
-      <configuration name="BreadthFirstSearchGeneratorTest" configurationId="JUnit" />
+    <history-entry file="GraphVisitGeneratorTest_dfsShouldTraverseInDFS - 2016.03.05 at 17h 48m 15s.xml">
+      <configuration name="GraphVisitGeneratorTest.dfsShouldTraverseInDFS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BreadthFirstSearchGeneratorTest - 2016.03.05 at 16h 05m 36s.xml">
-      <configuration name="BreadthFirstSearchGeneratorTest" configurationId="JUnit" />
+    <history-entry file="GraphVisitGeneratorTest_dfsShouldTraverseInDFS - 2016.03.05 at 17h 49m 51s.xml">
+      <configuration name="GraphVisitGeneratorTest.dfsShouldTraverseInDFS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BreadthFirstSearchGeneratorTest - 2016.03.05 at 16h 06m 55s.xml">
-      <configuration name="BreadthFirstSearchGeneratorTest" configurationId="JUnit" />
+    <history-entry file="GraphVisitGeneratorTest_dfsShouldTraverseInDFS - 2016.03.05 at 17h 51m 54s.xml">
+      <configuration name="GraphVisitGeneratorTest.dfsShouldTraverseInDFS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BreadthFirstSearchGeneratorTest - 2016.03.05 at 16h 12m 33s.xml">
-      <configuration name="BreadthFirstSearchGeneratorTest" configurationId="JUnit" />
+    <history-entry file="GraphVisitGeneratorTest_dfsShouldTraverseInDFS - 2016.03.05 at 17h 52m 06s.xml">
+      <configuration name="GraphVisitGeneratorTest.dfsShouldTraverseInDFS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BreadthFirstSearchGeneratorTest - 2016.03.05 at 16h 13m 11s.xml">
-      <configuration name="BreadthFirstSearchGeneratorTest" configurationId="JUnit" />
+    <history-entry file="GraphVisitGeneratorTest_dfsShouldTraverseInDFS - 2016.03.05 at 17h 57m 37s.xml">
+      <configuration name="GraphVisitGeneratorTest.dfsShouldTraverseInDFS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BreadthFirstSearchGeneratorTest - 2016.03.05 at 16h 15m 29s.xml">
-      <configuration name="BreadthFirstSearchGeneratorTest" configurationId="JUnit" />
+    <history-entry file="GraphVisitGeneratorTest_dfsShouldTraverseInDFS - 2016.03.05 at 17h 58m 15s.xml">
+      <configuration name="GraphVisitGeneratorTest.dfsShouldTraverseInDFS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BreadthFirstSearchGeneratorTest - 2016.03.05 at 16h 20m 46s.xml">
-      <configuration name="BreadthFirstSearchGeneratorTest" configurationId="JUnit" />
+    <history-entry file="GraphVisitGeneratorTest_dfsShouldTraverseInDFS - 2016.03.05 at 17h 59m 07s.xml">
+      <configuration name="GraphVisitGeneratorTest.dfsShouldTraverseInDFS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BreadthFirstSearchGeneratorTest - 2016.03.05 at 16h 21m 36s.xml">
-      <configuration name="BreadthFirstSearchGeneratorTest" configurationId="JUnit" />
+    <history-entry file="GraphVisitGeneratorTest_dfsShouldTraverseInDFS - 2016.03.05 at 17h 59m 29s.xml">
+      <configuration name="GraphVisitGeneratorTest.dfsShouldTraverseInDFS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BreadthFirstSearchGeneratorTest - 2016.03.05 at 16h 23m 59s.xml">
-      <configuration name="BreadthFirstSearchGeneratorTest" configurationId="JUnit" />
+    <history-entry file="GraphVisitGeneratorTest_dfsShouldTraverseInDFS - 2016.03.05 at 18h 07m 14s.xml">
+      <configuration name="GraphVisitGeneratorTest.dfsShouldTraverseInDFS" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1235" height="777" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4481752" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4481752" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979044" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -697,6 +850,14 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -714,23 +875,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/project/data/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10909091">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/project/generator/FibonacciGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5090909">
@@ -808,34 +952,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/project/generator/BreadthFirstSearchGeneratorTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="502" column="9" selection-start-line="502" selection-start-column="9" selection-end-line="502" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/project/generator/FibonacciGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.27575758">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/project/generator/BreadthFirstSearchGenerator.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14848486">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.7677054">
+          <caret line="1232" column="22" selection-start-line="1232" selection-start-column="22" selection-end-line="1232" selection-end-column="22" />
+          <folding>
+            <element signature="e#47036#47037#0" expanded="true" />
+            <element signature="e#47092#47093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.57878786">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="475" column="29" selection-start-line="475" selection-start-column="29" selection-end-line="475" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="11" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
+          <folding>
+            <element signature="e#4277#4278#0" expanded="true" />
+            <element signature="e#4329#4330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="169" column="11" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
+          <folding>
+            <element signature="e#4931#4932#0" expanded="true" />
+            <element signature="e#4970#4971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/project/data/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/project/generator/graph/GraphVisitGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#570#576#0" expanded="true" />
-            <element signature="e#620#626#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#612#618#0" expanded="true" />
+            <element signature="e#662#668#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/project/generator/graph/GraphVisitGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79886687">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3243#3252#0" expanded="true" />
           </folding>
         </state>
       </provider>

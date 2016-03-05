@@ -14,12 +14,10 @@ public class Node
 	private int intValue;
 
 	Collection<Node> superNodes;
-	Collection<Node> subNodes;
 
 	public Node()
 	{
 		superNodes = new ArrayList<>();
-		subNodes = new ArrayList<>();
 	}
 
 	public String getValue()
@@ -55,14 +53,12 @@ public class Node
 		return this;
 	}
 
-	public Collection<Node> getSubNodes()
+	@Override
+	public String toString()
 	{
-		return subNodes;
-	}
-
-	public Node setSubNodes(final Collection<Node> subNodes)
-	{
-		this.subNodes = subNodes;
-		return this;
+		return "Node{" +
+				"intValue=" + intValue +
+				", value='" + value + '\'' +
+				'}';
 	}
 }
