@@ -9,24 +9,22 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingDeque;
+import java.util.stream.Stream;
+import java.util.stream.StreamSupport;
 
-public class BreadthFirstSearchGenerator implements Iterable<Node>
+public class BreadthFirstSearchGenerator
 {
 	private static final Logger LOG = LoggerFactory.getLogger(BreadthFirstSearchGenerator.class);
-
-	private Queue<Node> queue = new LinkedBlockingDeque<Node>();
-	private Collection<Node> visited = new HashSet<Node>();
-
-	BreadthFirstSearchGenerator(Node n)
+	
+	public static Stream<Node> bfs(Node root)
 	{
-		queue.add(n);
-	}
+		Queue<Node> queue = new LinkedBlockingDeque<Node>();
+		Collection<Node> visited = new HashSet<Node>();
+		queue.add(root);
+		LOG.info("Creating and initialization");
 
+		return StreamSupport.stream(((Iterable<Node>) () -> new Iterator<Node>()
 
-	@Override
-	public Iterator<Node> iterator()
-	{
-		return new Iterator<Node>()
 		{
 			@Override
 			public boolean hasNext()
@@ -37,6 +35,7 @@ public class BreadthFirstSearchGenerator implements Iterable<Node>
 			@Override
 			public Node next()
 			{
+				LOG.info("Calling next");
 				Node node = queue.poll();
 				while (!queue.isEmpty() && visited.contains(node))
 				{
@@ -49,6 +48,7 @@ public class BreadthFirstSearchGenerator implements Iterable<Node>
 				}
 				return node;
 			}
-		};
+		}).spliterator(), false);
 	}
+
 }
