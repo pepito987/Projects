@@ -14,16 +14,21 @@ import java.util.concurrent.LinkedBlockingDeque;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-public class GraphVisitGenerator
+final class MyGraph implements GraphStreamUtils
 {
-	private static final Logger LOG = LoggerFactory.getLogger(GraphVisitGenerator.class);
+}
 
-	public static Stream<Node> BFS(Node root)
+public interface GraphStreamUtils
+{
+	Logger LOG = LoggerFactory.getLogger(GraphStreamUtils.class);
+
+	default Stream<Node> BFS(Node root)
 	{
 		Queue<Node> queue = new LinkedBlockingDeque<Node>();
 		Collection<Node> visited = new HashSet<Node>();
 		queue.add(root);
 		LOG.info("Creating and initialization");
+
 
 		return StreamSupport.stream(((Iterable<Node>) () -> new Iterator<Node>()
 
@@ -53,7 +58,7 @@ public class GraphVisitGenerator
 		}).spliterator(), false);
 	}
 
-	public static Stream<Node> DFS(Node root)
+	default Stream<Node> DFS(Node root)
 	{
 		Deque<Node> stack = new ArrayDeque<>();
 		Collection<Node> visited = new HashSet<>();
@@ -72,11 +77,11 @@ public class GraphVisitGenerator
 			{
 				LOG.info("Evaluating next");
 				Node node = stack.pop();
-				while ( !stack.isEmpty() && visited.contains(node))
+				while (!stack.isEmpty() && visited.contains(node))
 				{
 					node = stack.pop();
 				}
-				if(node != null)
+				if (node != null)
 				{
 					visited.add(node);
 					node.getSuperNodes().stream()
@@ -84,7 +89,7 @@ public class GraphVisitGenerator
 				}
 				return node;
 			}
-		}).spliterator(),false);
+		}).spliterator(), false);
 	}
 
 }

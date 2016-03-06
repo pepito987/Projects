@@ -15,10 +15,11 @@ import java.util.function.Function;
 import static java.util.stream.Collectors.toList;
 import static junit.framework.Assert.assertEquals;
 
-public class GraphVisitGeneratorTest
+public class GraphStreamUtilsTest
 {
-	private static final Logger LOG = LoggerFactory.getLogger(GraphVisitGeneratorTest.class);
+	private static final Logger LOG = LoggerFactory.getLogger(GraphStreamUtilsTest.class);
 
+	private GraphStreamUtils myGraph = new MyGraph();
 
 	@Test
 	public void bfsShouldReturnTheRootNode() throws Exception
@@ -27,7 +28,7 @@ public class GraphVisitGeneratorTest
 
 		Node root = new Node().setValue("rootNode");
 
-		final List<Node> list = GraphVisitGenerator.BFS(root)
+		final List<Node> list = myGraph.BFS(root)
 				.map(Function.identity())
 				.collect(toList());
 
@@ -52,7 +53,7 @@ public class GraphVisitGeneratorTest
 		super1.setSuperNodes(Collections.singleton(edge2));
 		root.setSuperNodes(Arrays.asList(edge1, super1));
 
-		final List<Node> list = GraphVisitGenerator.BFS(root)
+		final List<Node> list = myGraph.BFS(root)
 				.map(Function.identity())
 				.collect(toList());
 
@@ -75,7 +76,7 @@ public class GraphVisitGeneratorTest
 		super1.setSuperNodes(Collections.singleton(edge2));
 		root.setSuperNodes(Arrays.asList(edge1, super1));
 
-		final List<Node> list = GraphVisitGenerator.BFS(root)
+		final List<Node> list = myGraph.BFS(root)
 				.filter(n -> super1.getValue().equals(n.getValue()))
 				.collect(toList());
 
@@ -89,12 +90,12 @@ public class GraphVisitGeneratorTest
 		LOG.info("Executing [dfsShouldReturnTheRootElement]");
 		Node root = new Node().setValue("root");
 
-		final List<Node> list = GraphVisitGenerator.DFS(root)
+		final List<Node> list = myGraph.DFS(root)
 				.map(Function.identity())
 				.collect(toList());
 
-		assertEquals(1,list.size());
-		assertEquals("root",list.get(0).getValue());
+		assertEquals(1, list.size());
+		assertEquals("root", list.get(0).getValue());
 	}
 
 	@Test
@@ -111,7 +112,7 @@ public class GraphVisitGeneratorTest
 
 		super1.setSuperNodes(Collections.singleton(edge2));
 		List<Node> sorted = Arrays.asList(edge1, super1, edge3);
-		sorted.sort((n1,n2)->Integer.compare(n1.getIntValue(),n2.getIntValue()));
+		sorted.sort((n1, n2) -> Integer.compare(n1.getIntValue(), n2.getIntValue()));
 		root.setSuperNodes(sorted);
 
 		Queue<Integer> expectedOrder = new ArrayBlockingQueue<Integer>(6);
@@ -121,9 +122,9 @@ public class GraphVisitGeneratorTest
 		expectedOrder.add(3);
 		expectedOrder.add(2);
 
-		GraphVisitGenerator.DFS(root)
-				.forEach(n->{
-					assertEquals(expectedOrder.poll(),Integer.valueOf(n.getIntValue()));
+		myGraph.DFS(root)
+				.forEach(n -> {
+					assertEquals(expectedOrder.poll(), Integer.valueOf(n.getIntValue()));
 				});
 
 	}
